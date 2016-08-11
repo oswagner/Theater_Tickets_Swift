@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F716C0A1D5CA1A2002F8776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C091D5CA1A2002F8776 /* AppDelegate.swift */; };
+		9F716C0C1D5CA1A2002F8776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C0B1D5CA1A2002F8776 /* ViewController.swift */; };
+		9F716C0F1D5CA1A2002F8776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F716C0D1D5CA1A2002F8776 /* Main.storyboard */; };
+		9F716C111D5CA1A2002F8776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F716C101D5CA1A2002F8776 /* Assets.xcassets */; };
+		9F716C141D5CA1A2002F8776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F716C121D5CA1A2002F8776 /* LaunchScreen.storyboard */; };
+		9F716C1F1D5CA1A2002F8776 /* ChildrenPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C1E1D5CA1A2002F8776 /* ChildrenPaymentTests.swift */; };
+		9F716C2A1D5CA1A2002F8776 /* Theater_TicketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C291D5CA1A2002F8776 /* Theater_TicketsUITests.swift */; };
+		9F716C391D5CA20D002F8776 /* Elderly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C381D5CA20D002F8776 /* Elderly.swift */; };
+		9F716C3B1D5CA218002F8776 /* Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C3A1D5CA218002F8776 /* Children.swift */; };
+		9F716C3D1D5CA223002F8776 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C3C1D5CA223002F8776 /* Student.swift */; };
+		9F716C401D5CA244002F8776 /* PaymentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C3F1D5CA244002F8776 /* PaymentProtocol.swift */; };
+		9F716C431D5CA2D5002F8776 /* DaysOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C421D5CA2D5002F8776 /* DaysOfWeek.swift */; };
+		9F716C451D5CFCEC002F8776 /* ElderlyPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C441D5CFCEC002F8776 /* ElderlyPaymentTests.swift */; };
+		9F716C471D5CFD2F002F8776 /* StudentPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C461D5CFD2F002F8776 /* StudentPaymentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F716C1B1D5CA1A2002F8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F716BFE1D5CA1A2002F8776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F716C051D5CA1A2002F8776;
+			remoteInfo = "Theater Tickets";
+		};
+		9F716C261D5CA1A2002F8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F716BFE1D5CA1A2002F8776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F716C051D5CA1A2002F8776;
+			remoteInfo = "Theater Tickets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F716C061D5CA1A2002F8776 /* Theater Tickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Theater Tickets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F716C091D5CA1A2002F8776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F716C0B1D5CA1A2002F8776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F716C0E1D5CA1A2002F8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F716C101D5CA1A2002F8776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F716C131D5CA1A2002F8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F716C151D5CA1A2002F8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F716C1A1D5CA1A2002F8776 /* Theater TicketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Theater TicketsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F716C1E1D5CA1A2002F8776 /* ChildrenPaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenPaymentTests.swift; sourceTree = "<group>"; };
+		9F716C201D5CA1A2002F8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F716C251D5CA1A2002F8776 /* Theater TicketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Theater TicketsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F716C291D5CA1A2002F8776 /* Theater_TicketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater_TicketsUITests.swift; sourceTree = "<group>"; };
+		9F716C2B1D5CA1A2002F8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F716C381D5CA20D002F8776 /* Elderly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elderly.swift; sourceTree = "<group>"; };
+		9F716C3A1D5CA218002F8776 /* Children.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Children.swift; sourceTree = "<group>"; };
+		9F716C3C1D5CA223002F8776 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9F716C3F1D5CA244002F8776 /* PaymentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentProtocol.swift; sourceTree = "<group>"; };
+		9F716C421D5CA2D5002F8776 /* DaysOfWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysOfWeek.swift; sourceTree = "<group>"; };
+		9F716C441D5CFCEC002F8776 /* ElderlyPaymentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElderlyPaymentTests.swift; sourceTree = "<group>"; };
+		9F716C461D5CFD2F002F8776 /* StudentPaymentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentPaymentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F716C031D5CA1A2002F8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F716C171D5CA1A2002F8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F716C221D5CA1A2002F8776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F716BFD1D5CA1A2002F8776 = {
+			isa = PBXGroup;
+			children = (
+				9F716C081D5CA1A2002F8776 /* Theater Tickets */,
+				9F716C1D1D5CA1A2002F8776 /* Theater TicketsTests */,
+				9F716C281D5CA1A2002F8776 /* Theater TicketsUITests */,
+				9F716C071D5CA1A2002F8776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F716C071D5CA1A2002F8776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C061D5CA1A2002F8776 /* Theater Tickets.app */,
+				9F716C1A1D5CA1A2002F8776 /* Theater TicketsTests.xctest */,
+				9F716C251D5CA1A2002F8776 /* Theater TicketsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F716C081D5CA1A2002F8776 /* Theater Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C411D5CA2CB002F8776 /* Helpers */,
+				9F716C3E1D5CA22A002F8776 /* Protocols */,
+				9F716C371D5CA1EE002F8776 /* Model */,
+				9F716C091D5CA1A2002F8776 /* AppDelegate.swift */,
+				9F716C0B1D5CA1A2002F8776 /* ViewController.swift */,
+				9F716C0D1D5CA1A2002F8776 /* Main.storyboard */,
+				9F716C101D5CA1A2002F8776 /* Assets.xcassets */,
+				9F716C121D5CA1A2002F8776 /* LaunchScreen.storyboard */,
+				9F716C151D5CA1A2002F8776 /* Info.plist */,
+			);
+			path = "Theater Tickets";
+			sourceTree = "<group>";
+		};
+		9F716C1D1D5CA1A2002F8776 /* Theater TicketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C1E1D5CA1A2002F8776 /* ChildrenPaymentTests.swift */,
+				9F716C201D5CA1A2002F8776 /* Info.plist */,
+				9F716C441D5CFCEC002F8776 /* ElderlyPaymentTests.swift */,
+				9F716C461D5CFD2F002F8776 /* StudentPaymentTests.swift */,
+			);
+			path = "Theater TicketsTests";
+			sourceTree = "<group>";
+		};
+		9F716C281D5CA1A2002F8776 /* Theater TicketsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C291D5CA1A2002F8776 /* Theater_TicketsUITests.swift */,
+				9F716C2B1D5CA1A2002F8776 /* Info.plist */,
+			);
+			path = "Theater TicketsUITests";
+			sourceTree = "<group>";
+		};
+		9F716C371D5CA1EE002F8776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C381D5CA20D002F8776 /* Elderly.swift */,
+				9F716C3A1D5CA218002F8776 /* Children.swift */,
+				9F716C3C1D5CA223002F8776 /* Student.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F716C3E1D5CA22A002F8776 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C3F1D5CA244002F8776 /* PaymentProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		9F716C411D5CA2CB002F8776 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C421D5CA2D5002F8776 /* DaysOfWeek.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F716C051D5CA1A2002F8776 /* Theater Tickets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F716C2E1D5CA1A2002F8776 /* Build configuration list for PBXNativeTarget "Theater Tickets" */;
+			buildPhases = (
+				9F716C021D5CA1A2002F8776 /* Sources */,
+				9F716C031D5CA1A2002F8776 /* Frameworks */,
+				9F716C041D5CA1A2002F8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Theater Tickets";
+			productName = "Theater Tickets";
+			productReference = 9F716C061D5CA1A2002F8776 /* Theater Tickets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F716C191D5CA1A2002F8776 /* Theater TicketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F716C311D5CA1A2002F8776 /* Build configuration list for PBXNativeTarget "Theater TicketsTests" */;
+			buildPhases = (
+				9F716C161D5CA1A2002F8776 /* Sources */,
+				9F716C171D5CA1A2002F8776 /* Frameworks */,
+				9F716C181D5CA1A2002F8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F716C1C1D5CA1A2002F8776 /* PBXTargetDependency */,
+			);
+			name = "Theater TicketsTests";
+			productName = "Theater TicketsTests";
+			productReference = 9F716C1A1D5CA1A2002F8776 /* Theater TicketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F716C241D5CA1A2002F8776 /* Theater TicketsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F716C341D5CA1A2002F8776 /* Build configuration list for PBXNativeTarget "Theater TicketsUITests" */;
+			buildPhases = (
+				9F716C211D5CA1A2002F8776 /* Sources */,
+				9F716C221D5CA1A2002F8776 /* Frameworks */,
+				9F716C231D5CA1A2002F8776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F716C271D5CA1A2002F8776 /* PBXTargetDependency */,
+			);
+			name = "Theater TicketsUITests";
+			productName = "Theater TicketsUITests";
+			productReference = 9F716C251D5CA1A2002F8776 /* Theater TicketsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F716BFE1D5CA1A2002F8776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wagner Oliveira dos Santos";
+				TargetAttributes = {
+					9F716C051D5CA1A2002F8776 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7YTX5HANS;
+					};
+					9F716C191D5CA1A2002F8776 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F716C051D5CA1A2002F8776;
+					};
+					9F716C241D5CA1A2002F8776 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F716C051D5CA1A2002F8776;
+					};
+				};
+			};
+			buildConfigurationList = 9F716C011D5CA1A2002F8776 /* Build configuration list for PBXProject "Theater Tickets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F716BFD1D5CA1A2002F8776;
+			productRefGroup = 9F716C071D5CA1A2002F8776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F716C051D5CA1A2002F8776 /* Theater Tickets */,
+				9F716C191D5CA1A2002F8776 /* Theater TicketsTests */,
+				9F716C241D5CA1A2002F8776 /* Theater TicketsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F716C041D5CA1A2002F8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F716C141D5CA1A2002F8776 /* LaunchScreen.storyboard in Resources */,
+				9F716C111D5CA1A2002F8776 /* Assets.xcassets in Resources */,
+				9F716C0F1D5CA1A2002F8776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F716C181D5CA1A2002F8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F716C231D5CA1A2002F8776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F716C021D5CA1A2002F8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F716C0C1D5CA1A2002F8776 /* ViewController.swift in Sources */,
+				9F716C391D5CA20D002F8776 /* Elderly.swift in Sources */,
+				9F716C431D5CA2D5002F8776 /* DaysOfWeek.swift in Sources */,
+				9F716C3B1D5CA218002F8776 /* Children.swift in Sources */,
+				9F716C401D5CA244002F8776 /* PaymentProtocol.swift in Sources */,
+				9F716C3D1D5CA223002F8776 /* Student.swift in Sources */,
+				9F716C0A1D5CA1A2002F8776 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F716C161D5CA1A2002F8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F716C451D5CFCEC002F8776 /* ElderlyPaymentTests.swift in Sources */,
+				9F716C471D5CFD2F002F8776 /* StudentPaymentTests.swift in Sources */,
+				9F716C1F1D5CA1A2002F8776 /* ChildrenPaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F716C211D5CA1A2002F8776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F716C2A1D5CA1A2002F8776 /* Theater_TicketsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F716C1C1D5CA1A2002F8776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F716C051D5CA1A2002F8776 /* Theater Tickets */;
+			targetProxy = 9F716C1B1D5CA1A2002F8776 /* PBXContainerItemProxy */;
+		};
+		9F716C271D5CA1A2002F8776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F716C051D5CA1A2002F8776 /* Theater Tickets */;
+			targetProxy = 9F716C261D5CA1A2002F8776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F716C0D1D5CA1A2002F8776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F716C0E1D5CA1A2002F8776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F716C121D5CA1A2002F8776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F716C131D5CA1A2002F8776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F716C2C1D5CA1A2002F8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F716C2D1D5CA1A2002F8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F716C2F1D5CA1A2002F8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Theater Tickets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wagner.Theater-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9F716C301D5CA1A2002F8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Theater Tickets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wagner.Theater-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9F716C321D5CA1A2002F8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Theater TicketsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wagner.Theater-TicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theater Tickets.app/Theater Tickets";
+			};
+			name = Debug;
+		};
+		9F716C331D5CA1A2002F8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Theater TicketsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wagner.Theater-TicketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theater Tickets.app/Theater Tickets";
+			};
+			name = Release;
+		};
+		9F716C351D5CA1A2002F8776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Theater TicketsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wagner.Theater-TicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Theater Tickets";
+			};
+			name = Debug;
+		};
+		9F716C361D5CA1A2002F8776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Theater TicketsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wagner.Theater-TicketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Theater Tickets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F716C011D5CA1A2002F8776 /* Build configuration list for PBXProject "Theater Tickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F716C2C1D5CA1A2002F8776 /* Debug */,
+				9F716C2D1D5CA1A2002F8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F716C2E1D5CA1A2002F8776 /* Build configuration list for PBXNativeTarget "Theater Tickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F716C2F1D5CA1A2002F8776 /* Debug */,
+				9F716C301D5CA1A2002F8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F716C311D5CA1A2002F8776 /* Build configuration list for PBXNativeTarget "Theater TicketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F716C321D5CA1A2002F8776 /* Debug */,
+				9F716C331D5CA1A2002F8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F716C341D5CA1A2002F8776 /* Build configuration list for PBXNativeTarget "Theater TicketsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F716C351D5CA1A2002F8776 /* Debug */,
+				9F716C361D5CA1A2002F8776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F716BFE1D5CA1A2002F8776 /* Project object */;
+}
